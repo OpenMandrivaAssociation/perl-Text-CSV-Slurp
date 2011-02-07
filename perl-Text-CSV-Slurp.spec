@@ -1,5 +1,5 @@
 %define upstream_name    Text-CSV-Slurp
-%define upstream_version 0.8
+%define upstream_version 0.9
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -21,7 +21,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 Convert CSV into an array of hashes, or an array of hashes into CSV.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
