@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    Convert CSV into an array of hashes, or an array of hashes into CSV
 License:    GPL+ or Artistic
