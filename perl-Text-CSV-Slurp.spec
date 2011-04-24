@@ -14,6 +14,10 @@ Source0:    http://www.cpan.org/modules/by-module/Text/%{upstream_name}-%{upstre
 BuildRequires: perl(IO::Handle)
 BuildRequires: perl(Test::Most)
 BuildRequires: perl(Text::CSV)
+BuildRequires: perl(Test::Warn)
+BuildRequires: perl(Test::Exception)
+BuildRequires: perl(Test::Differences)
+BuildRequires: perl(Test::Deep)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
