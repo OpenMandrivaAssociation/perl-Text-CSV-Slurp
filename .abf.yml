@@ -1,2 +1,4 @@
+removed_sources:
+  Text-CSV-Slurp-0.9.tar.gz: 22756ae7b5fde38db68c170dff7e6d62fbc89e2f
 sources:
-  "Text-CSV-Slurp-0.9.tar.gz": 22756ae7b5fde38db68c170dff7e6d62fbc89e2f
+  Text-CSV-Slurp-1.01.tar.gz: a5380dc7441c20508419d9ae54c92e1dcb9aa001
