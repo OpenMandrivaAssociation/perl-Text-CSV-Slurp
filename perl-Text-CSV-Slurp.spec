@@ -25,7 +25,7 @@ BuildArch:	noarch
 Convert CSV into an array of hashes, or an array of hashes into CSV.
 
 %prep
-%setup -q -n %{upstream_name}
+%setup -qn %{upstream_name}-%{upstream_version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
