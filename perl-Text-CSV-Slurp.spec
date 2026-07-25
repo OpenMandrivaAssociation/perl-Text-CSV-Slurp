@@ -1,15 +1,15 @@
 %define upstream_name    Text-CSV-Slurp
-%define upstream_version 1.01
+%define upstream_version 1.03
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Convert CSV into an array of hashes, or an array of hashes into CSV
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Text/Text-CSV-Slurp-%{upstream_version}.tar.gz
+Url:		https://github.com/babf/Text-CSV-Slurp
+Source0:	https://cpan.metacpan.org/authors/id/B/BA/BABF/Text-CSV-Slurp-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
